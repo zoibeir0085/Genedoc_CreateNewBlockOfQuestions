@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="145.361971">
+    <testcase classname="AddQuestionFeature" name="Adding QuestionGenedoc with Dependency" time="145.361971">
+        <system-out><![CDATA[Given I navigate to the login page..........................................passed
+And I enter "rgauvin@kpmg.fr" and "aezan75".................................passed
+And I click login button....................................................passed
+Then I navigate to the model page...........................................passed
+Then I click to scaling question............................................passed
+Then I add a new bloc of questions and rename it to "My bloc of questions"..passed
+Then I add first question :"My Question1"...................................passed
+Then I add second question :"My Question2" with "My Question1" dependency...passed
+Then I add third question: "My Question3" with "My Question2" dependency....passed
+Then I add fourth question:"My Question4" with date type....................passed
+Then I add fifth question:"My Question5" with list type.....................passed
+Then I add sixth question:"My Question6" with number type...................passed
+Then I save changes.........................................................passed
+Then I click New Folder Button..............................................passed
+Then I enter "CAC\TEST model base -- test"  , "Modele test", "BELKACEM Amine" and "BELKACEM Amine".passed
+Then I navigate to the model page...........................................passed
+Then I click to scaling question............................................passed
+Then I delete block of questions created....................................passed
+Then I save changes.........................................................passed
+Then I close the browser....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
